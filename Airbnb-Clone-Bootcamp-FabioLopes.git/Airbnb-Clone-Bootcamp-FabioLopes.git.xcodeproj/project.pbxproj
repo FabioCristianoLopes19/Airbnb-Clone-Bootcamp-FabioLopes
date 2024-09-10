@@ -12,6 +12,26 @@
 		0308032E2C8FE0B4002DEFBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308032D2C8FE0B4002DEFBD /* ViewController.swift */; };
 		030803332C8FE0B6002DEFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030803322C8FE0B6002DEFBD /* Assets.xcassets */; };
 		030803362C8FE0B6002DEFBD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 030803352C8FE0B6002DEFBD /* Base */; };
+		030803482C8FE4EC002DEFBD /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 030803472C8FE4EC002DEFBD /* category.json */; };
+		0308034A2C8FE51B002DEFBD /* ServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803492C8FE51B002DEFBD /* ServiceMock.swift */; };
+		0308034C2C8FE55C002DEFBD /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308034B2C8FE55C002DEFBD /* SearchBarView.swift */; };
+		0308034E2C8FE58E002DEFBD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308034D2C8FE58E002DEFBD /* ProfileViewController.swift */; };
+		030803512C8FE5AA002DEFBD /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803502C8FE5AA002DEFBD /* ProfileScreen.swift */; };
+		030803532C8FE5F6002DEFBD /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803522C8FE5F6002DEFBD /* MessageViewController.swift */; };
+		030803562C8FE60D002DEFBD /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803552C8FE60D002DEFBD /* MessageScreen.swift */; };
+		030803582C8FE653002DEFBD /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803572C8FE653002DEFBD /* TravelViewController.swift */; };
+		0308035B2C8FE668002DEFBD /* TravelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308035A2C8FE668002DEFBD /* TravelScreen.swift */; };
+		0308035D2C8FE6BF002DEFBD /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308035C2C8FE6BF002DEFBD /* FavoriteViewController.swift */; };
+		030803612C8FE6F5002DEFBD /* FavoriteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803602C8FE6F5002DEFBD /* FavoriteScreen.swift */; };
+		030803632C8FE730002DEFBD /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803622C8FE730002DEFBD /* MainTabBarController.swift */; };
+		030803652C8FE78B002DEFBD /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803642C8FE78B002DEFBD /* ExploreViewModel.swift */; };
+		030803672C8FE79D002DEFBD /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803662C8FE79D002DEFBD /* ExploreViewController.swift */; };
+		0308036C2C8FE7C9002DEFBD /* ExploreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308036B2C8FE7C9002DEFBD /* ExploreScreen.swift */; };
+		0308036E2C8FE7EA002DEFBD /* CategoryImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308036D2C8FE7EA002DEFBD /* CategoryImageCollectionViewCell.swift */; };
+		030803702C8FE7FE002DEFBD /* DestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308036F2C8FE7FE002DEFBD /* DestinationTableViewCell.swift */; };
+		030803722C8FE815002DEFBD /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803712C8FE815002DEFBD /* CategoryCollectionViewCell.swift */; };
+		030803742C8FE830002DEFBD /* TravelCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803732C8FE830002DEFBD /* TravelCategory.swift */; };
+		030803762C8FE845002DEFBD /* PropertyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803752C8FE845002DEFBD /* PropertyDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +42,26 @@
 		030803322C8FE0B6002DEFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		030803352C8FE0B6002DEFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		030803372C8FE0B6002DEFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030803472C8FE4EC002DEFBD /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		030803492C8FE51B002DEFBD /* ServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMock.swift; sourceTree = "<group>"; };
+		0308034B2C8FE55C002DEFBD /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		0308034D2C8FE58E002DEFBD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		030803502C8FE5AA002DEFBD /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		030803522C8FE5F6002DEFBD /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		030803552C8FE60D002DEFBD /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
+		030803572C8FE653002DEFBD /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		0308035A2C8FE668002DEFBD /* TravelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelScreen.swift; sourceTree = "<group>"; };
+		0308035C2C8FE6BF002DEFBD /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		030803602C8FE6F5002DEFBD /* FavoriteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteScreen.swift; sourceTree = "<group>"; };
+		030803622C8FE730002DEFBD /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		030803642C8FE78B002DEFBD /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		030803662C8FE79D002DEFBD /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		0308036B2C8FE7C9002DEFBD /* ExploreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreScreen.swift; sourceTree = "<group>"; };
+		0308036D2C8FE7EA002DEFBD /* CategoryImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0308036F2C8FE7FE002DEFBD /* DestinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationTableViewCell.swift; sourceTree = "<group>"; };
+		030803712C8FE815002DEFBD /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		030803732C8FE830002DEFBD /* TravelCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCategory.swift; sourceTree = "<group>"; };
+		030803752C8FE845002DEFBD /* PropertyDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,15 @@
 		030803282C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git */ = {
 			isa = PBXGroup;
 			children = (
+				030803452C8FE4B6002DEFBD /* Resource */,
+				030803442C8FE4AD002DEFBD /* Service */,
+				030803432C8FE472002DEFBD /* SourceBarView */,
+				030803422C8FE46A002DEFBD /* Profile */,
+				030803412C8FE461002DEFBD /* Message */,
+				030803402C8FE459002DEFBD /* Travel */,
+				0308033F2C8FE44C002DEFBD /* Favorite */,
+				0308033E2C8FE3F6002DEFBD /* MainTabBarController */,
+				0308033D2C8FE3EB002DEFBD /* Explore */,
 				030803292C8FE0B4002DEFBD /* AppDelegate.swift */,
 				0308032B2C8FE0B4002DEFBD /* SceneDelegate.swift */,
 				0308032D2C8FE0B4002DEFBD /* ViewController.swift */,
@@ -62,6 +111,153 @@
 				030803372C8FE0B6002DEFBD /* Info.plist */,
 			);
 			path = "Airbnb-Clone-Bootcamp-FabioLopes.git";
+			sourceTree = "<group>";
+		};
+		0308033D2C8FE3EB002DEFBD /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				0308036A2C8FE7B4002DEFBD /* Model */,
+				030803692C8FE7AC002DEFBD /* Cell */,
+				030803682C8FE7A5002DEFBD /* Screen */,
+				030803642C8FE78B002DEFBD /* ExploreViewModel.swift */,
+				030803662C8FE79D002DEFBD /* ExploreViewController.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		0308033E2C8FE3F6002DEFBD /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				030803622C8FE730002DEFBD /* MainTabBarController.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		0308033F2C8FE44C002DEFBD /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				0308035F2C8FE6CB002DEFBD /* Screen */,
+				0308035C2C8FE6BF002DEFBD /* FavoriteViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		030803402C8FE459002DEFBD /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				030803592C8FE657002DEFBD /* Screen */,
+				030803572C8FE653002DEFBD /* TravelViewController.swift */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		030803412C8FE461002DEFBD /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				030803542C8FE5FB002DEFBD /* Screen */,
+				030803522C8FE5F6002DEFBD /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		030803422C8FE46A002DEFBD /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0308034F2C8FE593002DEFBD /* Screen */,
+				0308034D2C8FE58E002DEFBD /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		030803432C8FE472002DEFBD /* SourceBarView */ = {
+			isa = PBXGroup;
+			children = (
+				0308034B2C8FE55C002DEFBD /* SearchBarView.swift */,
+			);
+			path = SourceBarView;
+			sourceTree = "<group>";
+		};
+		030803442C8FE4AD002DEFBD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				030803492C8FE51B002DEFBD /* ServiceMock.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		030803452C8FE4B6002DEFBD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				030803462C8FE4CE002DEFBD /* Json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		030803462C8FE4CE002DEFBD /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				030803472C8FE4EC002DEFBD /* category.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		0308034F2C8FE593002DEFBD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				030803502C8FE5AA002DEFBD /* ProfileScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		030803542C8FE5FB002DEFBD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				030803552C8FE60D002DEFBD /* MessageScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		030803592C8FE657002DEFBD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0308035A2C8FE668002DEFBD /* TravelScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		0308035F2C8FE6CB002DEFBD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				030803602C8FE6F5002DEFBD /* FavoriteScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		030803682C8FE7A5002DEFBD /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0308036B2C8FE7C9002DEFBD /* ExploreScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		030803692C8FE7AC002DEFBD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				030803712C8FE815002DEFBD /* CategoryCollectionViewCell.swift */,
+				0308036F2C8FE7FE002DEFBD /* DestinationTableViewCell.swift */,
+				0308036D2C8FE7EA002DEFBD /* CategoryImageCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0308036A2C8FE7B4002DEFBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				030803732C8FE830002DEFBD /* TravelCategory.swift */,
+				030803752C8FE845002DEFBD /* PropertyDataModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030803482C8FE4EC002DEFBD /* category.json in Resources */,
 				030803332C8FE0B6002DEFBD /* Assets.xcassets in Resources */,
 				030803362C8FE0B6002DEFBD /* Base in Resources */,
 			);
@@ -134,9 +331,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0308036E2C8FE7EA002DEFBD /* CategoryImageCollectionViewCell.swift in Sources */,
+				030803562C8FE60D002DEFBD /* MessageScreen.swift in Sources */,
+				030803612C8FE6F5002DEFBD /* FavoriteScreen.swift in Sources */,
+				0308034E2C8FE58E002DEFBD /* ProfileViewController.swift in Sources */,
+				030803762C8FE845002DEFBD /* PropertyDataModel.swift in Sources */,
+				030803512C8FE5AA002DEFBD /* ProfileScreen.swift in Sources */,
+				030803672C8FE79D002DEFBD /* ExploreViewController.swift in Sources */,
+				030803532C8FE5F6002DEFBD /* MessageViewController.swift in Sources */,
+				030803582C8FE653002DEFBD /* TravelViewController.swift in Sources */,
+				030803652C8FE78B002DEFBD /* ExploreViewModel.swift in Sources */,
+				0308034C2C8FE55C002DEFBD /* SearchBarView.swift in Sources */,
+				030803702C8FE7FE002DEFBD /* DestinationTableViewCell.swift in Sources */,
 				0308032E2C8FE0B4002DEFBD /* ViewController.swift in Sources */,
 				0308032A2C8FE0B4002DEFBD /* AppDelegate.swift in Sources */,
 				0308032C2C8FE0B4002DEFBD /* SceneDelegate.swift in Sources */,
+				0308036C2C8FE7C9002DEFBD /* ExploreScreen.swift in Sources */,
+				030803632C8FE730002DEFBD /* MainTabBarController.swift in Sources */,
+				030803722C8FE815002DEFBD /* CategoryCollectionViewCell.swift in Sources */,
+				0308034A2C8FE51B002DEFBD /* ServiceMock.swift in Sources */,
+				0308035D2C8FE6BF002DEFBD /* FavoriteViewController.swift in Sources */,
+				0308035B2C8FE668002DEFBD /* TravelScreen.swift in Sources */,
+				030803742C8FE830002DEFBD /* TravelCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
