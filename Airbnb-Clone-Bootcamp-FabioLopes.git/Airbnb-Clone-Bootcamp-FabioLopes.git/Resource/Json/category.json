@@ -1,0 +1,52 @@
+[
+    {
+        "image": "ticket",
+        "category": "Icônicos",
+        "isSelected": true
+    },
+    {
+        "image": "house.and.flag.fill",
+        "category": "Chalés",
+        "isSelected": false
+    },
+    {
+        "image": "beach.umbrella",
+        "category": "Em frente à praia",
+        "isSelected": false
+    },
+    {
+        "image": "sun.horizon.fill",
+        "category": "Vistas incríveis",
+        "isSelected": false
+    },
+    {
+        "image": "fireworks",
+        "category": "Castelos",
+        "isSelected": false
+    },
+    {
+        "image": "flame",
+        "category": "Em alta",
+        "isSelected": false
+    },
+    {
+        "image": "tree",
+        "category": "Ilhas",
+        "isSelected": false
+    },
+    {
+        "image": "figure.pool.swim",
+        "category": "Lago",
+        "isSelected": false
+    },
+    {
+        "image": "sailboat",
+        "category": "Barcos",
+        "isSelected": false
+    },
+    {
+        "image": "snowflake",
+        "category": "Ártico",
+        "isSelected": false
+    }
+]
