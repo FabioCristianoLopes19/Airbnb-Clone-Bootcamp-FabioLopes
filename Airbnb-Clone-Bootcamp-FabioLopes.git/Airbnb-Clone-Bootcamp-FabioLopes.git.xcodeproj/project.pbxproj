@@ -47,6 +47,14 @@
 		03230D4D2CA27B0B00544858 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03230D4C2CA27B0B00544858 /* APIRequest.swift */; };
 		03230D512CA27C4500544858 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 03230D502CA27C4500544858 /* places.json */; };
 		03230D542CA27D3800544858 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03230D532CA27D3800544858 /* ExploreService.swift */; };
+		03B752B42CB0DCC2008364A2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752B32CB0DCC2008364A2 /* FirebaseAuth */; };
+		03B752B72CB0E738008364A2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752B62CB0E738008364A2 /* GoogleSignIn */; };
+		03B752B92CB0E738008364A2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752B82CB0E738008364A2 /* GoogleSignInSwift */; };
+		03B752BB2CB0E848008364A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03B752BA2CB0E848008364A2 /* GoogleService-Info.plist */; };
+		03B752BE2CB0F173008364A2 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752BD2CB0F173008364A2 /* FacebookCore */; };
+		03B752C02CB0F173008364A2 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752BF2CB0F173008364A2 /* FacebookLogin */; };
+		03B752C32CB0FFA1008364A2 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752C22CB0FFA1008364A2 /* FirebaseRemoteConfig */; };
+		03B752C62CB0FFE7008364A2 /* RemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B752C52CB0FFE7008364A2 /* RemoteConfigManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +100,8 @@
 		03230D4C2CA27B0B00544858 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		03230D502CA27C4500544858 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		03230D532CA27D3800544858 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		03B752BA2CB0E848008364A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		03B752C52CB0FFE7008364A2 /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B752C02CB0F173008364A2 /* FacebookLogin in Frameworks */,
+				03B752B92CB0E738008364A2 /* GoogleSignInSwift in Frameworks */,
+				03B752B42CB0DCC2008364A2 /* FirebaseAuth in Frameworks */,
+				03B752C32CB0FFA1008364A2 /* FirebaseRemoteConfig in Frameworks */,
+				03B752B72CB0E738008364A2 /* GoogleSignIn in Frameworks */,
+				03B752BE2CB0F173008364A2 /* FacebookCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +126,7 @@
 			children = (
 				030803282C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git */,
 				030803272C8FE0B4002DEFBD /* Products */,
+				03B752C12CB0FFA1008364A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +141,7 @@
 		030803282C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git */ = {
 			isa = PBXGroup;
 			children = (
+				03B752C42CB0FFAE008364A2 /* RemoteConfigManager */,
 				03230D262CA2794F00544858 /* Login */,
 				03230D252CA278F800544858 /* Service */,
 				030803452C8FE4B6002DEFBD /* Resource */,
@@ -140,6 +158,7 @@
 				030803322C8FE0B6002DEFBD /* Assets.xcassets */,
 				030803342C8FE0B6002DEFBD /* LaunchScreen.storyboard */,
 				030803372C8FE0B6002DEFBD /* Info.plist */,
+				03B752BA2CB0E848008364A2 /* GoogleService-Info.plist */,
 			);
 			path = "Airbnb-Clone-Bootcamp-FabioLopes.git";
 			sourceTree = "<group>";
@@ -417,6 +436,21 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		03B752C12CB0FFA1008364A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B752C42CB0FFAE008364A2 /* RemoteConfigManager */ = {
+			isa = PBXGroup;
+			children = (
+				03B752C52CB0FFE7008364A2 /* RemoteConfigManager.swift */,
+			);
+			path = RemoteConfigManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -433,6 +467,14 @@
 			dependencies = (
 			);
 			name = "Airbnb-Clone-Bootcamp-FabioLopes.git";
+			packageProductDependencies = (
+				03B752B32CB0DCC2008364A2 /* FirebaseAuth */,
+				03B752B62CB0E738008364A2 /* GoogleSignIn */,
+				03B752B82CB0E738008364A2 /* GoogleSignInSwift */,
+				03B752BD2CB0F173008364A2 /* FacebookCore */,
+				03B752BF2CB0F173008364A2 /* FacebookLogin */,
+				03B752C22CB0FFA1008364A2 /* FirebaseRemoteConfig */,
+			);
 			productName = "Airbnb-Clone-Bootcamp-FabioLopes.git";
 			productReference = 030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */;
 			productType = "com.apple.product-type.application";
@@ -461,6 +503,11 @@
 				Base,
 			);
 			mainGroup = 0308031D2C8FE0B4002DEFBD;
+			packageReferences = (
+				03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				03B752B52CB0E738008364A2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				03B752BC2CB0F172008364A2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
 			productRefGroup = 030803272C8FE0B4002DEFBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -476,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				030803482C8FE4EC002DEFBD /* category.json in Resources */,
+				03B752BB2CB0E848008364A2 /* GoogleService-Info.plist in Resources */,
 				030803332C8FE0B6002DEFBD /* Assets.xcassets in Resources */,
 				030803362C8FE0B6002DEFBD /* Base in Resources */,
 				03230D512CA27C4500544858 /* places.json in Resources */,
@@ -524,6 +572,7 @@
 				03230D362CA27A2A00544858 /* HTTPMethod.swift in Sources */,
 				03230D332CA27A0C00544858 /* NetworkError.swift in Sources */,
 				030803742C8FE830002DEFBD /* TravelCategory.swift in Sources */,
+				03B752C62CB0FFE7008364A2 /* RemoteConfigManager.swift in Sources */,
 				03230D2E2CA279C000544858 /* RegisterButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -745,6 +794,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		03B752B52CB0E738008364A2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		03B752BC2CB0F172008364A2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03B752B32CB0DCC2008364A2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		03B752B62CB0E738008364A2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752B52CB0E738008364A2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		03B752B82CB0E738008364A2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752B52CB0E738008364A2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		03B752BD2CB0F173008364A2 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752BC2CB0F172008364A2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		03B752BF2CB0F173008364A2 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752BC2CB0F172008364A2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		03B752C22CB0FFA1008364A2 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0308031E2C8FE0B4002DEFBD /* Project object */;
 }
