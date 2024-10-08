@@ -24,15 +24,24 @@ class LoginViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     screen?.delegate = self
+    viewModel.delegate(delegate: self)
   }
+}
 
+extension LoginViewController: LoginViewModelProtocol {
+  func successLogin() {
+    navigationController?.pushViewController(MainTabBarController(), animated: true)
+  }
+  
+  func failureLogin() {
+    print(#function)
+  }
 }
 
 extension LoginViewController: LoginScreenProtocol {
   func tappedSignIn() {
-      viewModel.signIn(email: screen?.emailTextField.text ?? "", password: screen?.passwordTextField.text ?? "")
-//      viewModel.signInWithEmailAndPassword(email: screen?.emailTextField.text ?? "", password: screen?.passwordTextField.text ?? "")
-      //    viewModel.createUserWithEmailAndPassword(email: screen?.emailTextField.text ?? "", password: screen?.passwordTextField.text ?? "")
+    viewModel.signInWithEmailAndPassword(email: screen?.emailTextField.text ?? "", password: screen?.passwordTextField.text ?? "")
+//    viewModel.createUserWithEmailAndPassword(email: screen?.emailTextField.text ?? "", password: screen?.passwordTextField.text ?? "")
   }
 
   func tappedCreateAccount() {
@@ -40,11 +49,11 @@ extension LoginViewController: LoginScreenProtocol {
   }
 
   func tappedGoogle() {
-      viewModel.signInWithGoogle(viewController: self)
+    viewModel.signInWithGoogle(viewController: self)
   }
 
   func tappedFacebook() {
-      viewModel.signInWithFacebook(viewController: self)
+    viewModel.signInWithFacebook(viewController: self)
   }
 }
 

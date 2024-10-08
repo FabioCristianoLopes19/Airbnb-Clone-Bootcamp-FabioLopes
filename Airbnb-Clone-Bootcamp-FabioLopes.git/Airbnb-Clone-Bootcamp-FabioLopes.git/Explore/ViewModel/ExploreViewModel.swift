@@ -30,7 +30,8 @@ class ExploreViewModel {
   func fetchAllRequest() {
     fetchPropertiesList { [weak self] in
       guard let self else { return }
-      fetchCategoryList()
+//      fetchCategoryList()
+      fetchCategoryListMock()
     }
   }
 
@@ -76,7 +77,20 @@ class ExploreViewModel {
   }
 
   func fetchPropertiesList(completion: @escaping () -> Void) {
-    ExploreService.fetchPropertyDataModelList() { [weak self] result in
+//    ExploreService.fetchPropertyDataModelList() { [weak self] result in
+//      guard let self else { return }
+//      switch result {
+//      case .success(let success):
+//        properties = success
+//        filterProperties = success
+//        completion()
+//      case .failure(let failure):
+//        delegate?.failure(errorMessage: failure.errorDescription ?? "")
+//        return
+//      }
+//    }
+
+    FirestoreManager.shared.getPlaceFromFirebase() { [weak self] result in
       guard let self else { return }
       switch result {
       case .success(let success):
@@ -84,7 +98,7 @@ class ExploreViewModel {
         filterProperties = success
         completion()
       case .failure(let failure):
-        delegate?.failure(errorMessage: failure.errorDescription ?? "")
+        delegate?.failure(errorMessage: failure.localizedDescription)
         return
       }
     }

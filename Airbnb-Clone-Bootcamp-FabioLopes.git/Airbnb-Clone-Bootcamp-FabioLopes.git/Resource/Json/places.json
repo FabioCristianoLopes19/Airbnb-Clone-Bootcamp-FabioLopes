@@ -5,12 +5,7 @@
         "subtitle": "Essa é a descrição",
         "price": "R$ 1.560,00 por noite",
         "rating": "4,99",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fchale%2Fchale1.png?alt=media&token=1cc17af0-30e1-466b-8fe8-867ce14fcfa0",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fchale%2Fchale2.png?alt=media&token=0ba3b04b-0db7-4f7f-92f7-366d23e42e8a",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fchale%2Fchale3.png?alt=media&token=fe35c101-6f98-49d9-96b5-b969f08cde9d",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fchale%2Fchale4.png?alt=media&token=bf2ac242-9568-4b5c-8a1f-5681d5c91e1c"
-        ],
+        "images": ["chale1", "chale2", "chale3", "chale4", "chale5"],
         "date": "5 noites -> 29 de ago - 3 de set",
         "isFavorite": false,
         "status": "Preferido dos hóspedes",
@@ -18,15 +13,11 @@
     },
     {
         "id": 2,
-        "title": "Cabana do Sol, Brasil",
+        "title": "Studio RM - Frente ao mar!",
         "subtitle": "Vista deslumbrante da natureza",
         "price": "R$ 1.850,00 por noite",
         "rating": "4,85",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fpraia%2Fpraia1.png?alt=media&token=bbdd1a6f-c610-4e24-94f7-5761f80dc233",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fpraia%2Fpraia2.png?alt=media&token=1cfbc879-bbba-428e-ade0-5084f72a521d",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fpraia%2Fpraia3.png?alt=media&token=5bba769f-8e26-48e0-bd4d-cad427eb1b77"
-        ],
+        "images": ["praia1", "praia2", "praia3"],
         "date": "3 noites -> 20 de set - 23 de set",
         "isFavorite": true,
         "status": "Superhost",
@@ -38,11 +29,7 @@
         "subtitle": "Tranquilidade e conforto",
         "price": "R$ 980,00 por noite",
         "rating": "4,78",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fvista%2Fvista1.png?alt=media&token=66dca905-f2a8-4613-9e8d-1155ae1b6b4c",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fvista%2Fvista2.png?alt=media&token=11e92493-79f4-447c-91ae-9bf5452595c8",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fvista%2Fvista3.png?alt=media&token=025916a6-074e-4081-9263-7290c00efba4"
-        ],
+        "images": ["vista1", "vista2", "vista3"],
         "date": "4 noites -> 10 de out - 14 de out",
         "isFavorite": false,
         "status": "Melhor custo-benefício",
@@ -54,11 +41,7 @@
         "subtitle": "Construído no século 12",
         "price": "R$ 2.300,00 por noite",
         "rating": "4,92",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fcastelo%2Fcastelo1.png?alt=media&token=cb6b51bf-3175-40c7-8096-7972d7c7012f",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fcastelo%2Fcastelo2.png?alt=media&token=ce55621e-ea4b-4dbf-b2cc-51b08a4e5da3",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fcastelo%2Fcastelo3.png?alt=media&token=68c128da-b0cc-4966-bcc2-9f37da2fee2c"
-        ],
+        "images": ["castelo1", "castelo2", "castelo3"],
         "date": "7 noites -> 1 de nov - 8 de nov",
         "isFavorite": true,
         "status": "Popular",
@@ -70,11 +53,7 @@
         "subtitle": "Visualizado 10.809 vezes na semana passada",
         "price": "R$ 600 por noite",
         "rating": "4,88",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Falta%2Falta1.png?alt=media&token=8eda6342-9138-4e66-88f3-d70d62bb460d",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Falta%2Falta2.png?alt=media&token=1ae469e8-9b14-430d-8153-9e17589c4a76",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Falta%2Falta3.png?alt=media&token=df3bd13f-320b-4817-882b-e5c376bc1bf4"
-        ],
+        "images": ["alta1", "alta2", "alta3"],
         "date": "6 noites -> 12 de dez - 18 de dez",
         "isFavorite": false,
         "status": "Novo",
@@ -86,11 +65,7 @@
         "subtitle": "2.000 metros quadrados",
         "price": "R$ 26.016 por noite",
         "rating": "4,75",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Filha%2Filha1.png?alt=media&token=859df70b-4871-45f9-9ad7-d9ccac630e88",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Filha%2Filha2.png?alt=media&token=ac6e171b-a06c-4616-a9fd-d548e159e937",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Filha%2Filha3.png?alt=media&token=1b2917af-dba5-44cb-89c2-bfb84c1ac44d"
-        ],
+        "images": ["ilha1", "ilha2", "ilha3"],
         "date": "3 noites -> 20 de jan - 23 de jan",
         "isFavorite": true,
         "status": "Excelente localização",
@@ -102,11 +77,7 @@
         "subtitle": "Perto de: Lago do Gurupiá",
         "price": "R$ 449 por noite",
         "rating": "4,80",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Flago%2Flago1.png?alt=media&token=11d1f4f7-1e59-4964-8402-59920e4e1be7",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Flago%2Flago2.png?alt=media&token=7436401c-ee18-452c-84c7-b39c4755a0c4",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Flago%2Flago3.png?alt=media&token=18c46828-8eec-4db7-a4b1-f62ff3463289"
-        ],
+        "images": ["lago1", "lago2", "lago3"],
         "date": "4 noites -> 10 de fev - 14 de fev",
         "isFavorite": false,
         "status": "Favorito dos hóspedes",
@@ -118,11 +89,7 @@
         "subtitle": "198 km de distância",
         "price": "R$ 35.376 por noite",
         "rating": "4,90",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fbarco%2Fbarco1.png?alt=media&token=b2a7eb6a-1b57-4859-bc8b-3a1555629cad",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fbarco%2Fbarco2.png?alt=media&token=93fc53a2-1c2f-4ef1-9c09-9ed317631fb7",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fbarco%2Fbarco3.png?alt=media&token=4e10dcf8-c8e7-47ab-bb25-1ccec6beb6af"
-        ],
+        "images": ["barco1", "barco2", "barco3"],
         "date": "5 noites -> 15 de mar - 20 de mar",
         "isFavorite": true,
         "status": "Recomendado",
@@ -134,11 +101,7 @@
         "subtitle": "11.679 km de distância",
         "price": "R$ 663 por noite",
         "rating": "4,95",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fartico%2Faritco1.png?alt=media&token=3951c3a0-76a1-4988-b2cc-6248acd0c048",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fartico%2Fartico2.png?alt=media&token=f3451172-974c-4438-bfee-d61c0f0ee940",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fartico%2Fartico3.png?alt=media&token=7cc961e1-7058-440d-ad92-983240977714"
-        ],
+        "images": ["artico1", "artico2", "artico3"],
         "date": "6 noites -> 5 de abr - 11 de abr",
         "isFavorite": false,
         "status": "Destaque",
@@ -150,11 +113,7 @@
         "subtitle": "9.981 km de distância",
         "price": "R$ 4.983 por noite",
         "rating": "4,82",
-        "images": [
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fartico%2Fartico4.png?alt=media&token=1873211b-2238-4d78-b228-29a5c8e810eb",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fartico%2Fartico5.png?alt=media&token=95ad61ec-ec78-4f78-9479-1e18fd146709",
-            "https://firebasestorage.googleapis.com/v0/b/airbnb-clone-32842.appspot.com/o/places%2Fartico%2Fartico6.png?alt=media&token=55881eda-5070-4dbd-bf52-8ae4ce89df44"
-        ],
+        "images": ["artico4", "artico5", "artico6"],
         "date": "4 noites -> 15 de mai - 19 de mai",
         "isFavorite": true,
         "status": "Aconchegante",

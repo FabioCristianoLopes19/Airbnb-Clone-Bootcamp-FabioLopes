@@ -23,7 +23,14 @@ class FavoriteScreen: UIView {
     return view
   }()
 
-
+  lazy var tableView: UITableView = {
+    let tableView = UITableView()
+    tableView.translatesAutoresizingMaskIntoConstraints = false
+    tableView.register(DestinationTableViewCell.self, forCellReuseIdentifier: DestinationTableViewCell.identifier)
+    tableView.backgroundColor = .white
+    tableView.separatorStyle = .none
+    return tableView
+  }()
 
   init() {
     super.init(frame: .zero)
@@ -38,6 +45,7 @@ class FavoriteScreen: UIView {
 
   func addElements() {
     addSubview(searchBarView)
+    addSubview(tableView)
   }
 
   func configConstraints() {
@@ -46,7 +54,17 @@ class FavoriteScreen: UIView {
       searchBarView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
       searchBarView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
       searchBarView.heightAnchor.constraint(equalToConstant: 60),
+
+      tableView.topAnchor.constraint(equalTo: searchBarView.bottomAnchor, constant: 5),
+      tableView.leadingAnchor.constraint(equalTo: leadingAnchor),
+      tableView.trailingAnchor.constraint(equalTo: trailingAnchor),
+      tableView.bottomAnchor.constraint(equalTo: bottomAnchor),
     ])
+  }
+
+  func configTableViewProtocols(delegate: UITableViewDelegate, dataSource: UITableViewDataSource) {
+    tableView.delegate = delegate
+    tableView.dataSource = dataSource
   }
 
 }

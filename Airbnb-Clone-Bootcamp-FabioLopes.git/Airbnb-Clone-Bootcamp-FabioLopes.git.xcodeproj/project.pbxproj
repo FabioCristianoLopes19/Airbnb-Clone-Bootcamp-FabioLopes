@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0308032A2C8FE0B4002DEFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030803292C8FE0B4002DEFBD /* AppDelegate.swift */; };
 		0308032C2C8FE0B4002DEFBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308032B2C8FE0B4002DEFBD /* SceneDelegate.swift */; };
-		0308032E2C8FE0B4002DEFBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0308032D2C8FE0B4002DEFBD /* ViewController.swift */; };
 		030803332C8FE0B6002DEFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030803322C8FE0B6002DEFBD /* Assets.xcassets */; };
 		030803362C8FE0B6002DEFBD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 030803352C8FE0B6002DEFBD /* Base */; };
 		030803482C8FE4EC002DEFBD /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 030803472C8FE4EC002DEFBD /* category.json */; };
@@ -47,6 +46,10 @@
 		03230D4D2CA27B0B00544858 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03230D4C2CA27B0B00544858 /* APIRequest.swift */; };
 		03230D512CA27C4500544858 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 03230D502CA27C4500544858 /* places.json */; };
 		03230D542CA27D3800544858 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03230D532CA27D3800544858 /* ExploreService.swift */; };
+		03A40D9D2CB4B7D1001527F5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03A40D9C2CB4B7D1001527F5 /* FirebaseFirestore */; };
+		03A40DA02CB4B870001527F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A40D9F2CB4B870001527F5 /* User.swift */; };
+		03A40DA42CB4B8E3001527F5 /* FirebaseFirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A40DA32CB4B8E3001527F5 /* FirebaseFirestoreManager.swift */; };
+		03A40DA72CB4BA2C001527F5 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A40DA62CB4BA2C001527F5 /* FavoriteViewModel.swift */; };
 		03B752B42CB0DCC2008364A2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752B32CB0DCC2008364A2 /* FirebaseAuth */; };
 		03B752B72CB0E738008364A2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752B62CB0E738008364A2 /* GoogleSignIn */; };
 		03B752B92CB0E738008364A2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 03B752B82CB0E738008364A2 /* GoogleSignInSwift */; };
@@ -58,10 +61,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Airbnb-Clone-Bootcamp-FabioLopes.git.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Airbnb-Clone-Bootcamp-FabioLopes.git.app"; path = "/Users/fabio_cl/Airbnb-Clone-Bootcamp-FabioLopes/Airbnb-Clone-Bootcamp-FabioLopes.git/build/Debug-iphoneos/Airbnb-Clone-Bootcamp-FabioLopes.git.app"; sourceTree = "<absolute>"; };
 		030803292C8FE0B4002DEFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0308032B2C8FE0B4002DEFBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0308032D2C8FE0B4002DEFBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		030803322C8FE0B6002DEFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		030803352C8FE0B6002DEFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		030803372C8FE0B6002DEFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +102,9 @@
 		03230D4C2CA27B0B00544858 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		03230D502CA27C4500544858 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		03230D532CA27D3800544858 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		03A40D9F2CB4B870001527F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		03A40DA32CB4B8E3001527F5 /* FirebaseFirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFirestoreManager.swift; sourceTree = "<group>"; };
+		03A40DA62CB4BA2C001527F5 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		03B752BA2CB0E848008364A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		03B752C52CB0FFE7008364A2 /* RemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +120,7 @@
 				03B752C32CB0FFA1008364A2 /* FirebaseRemoteConfig in Frameworks */,
 				03B752B72CB0E738008364A2 /* GoogleSignIn in Frameworks */,
 				03B752BE2CB0F173008364A2 /* FacebookCore in Frameworks */,
+				03A40D9D2CB4B7D1001527F5 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,27 +131,19 @@
 			isa = PBXGroup;
 			children = (
 				030803282C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git */,
-				030803272C8FE0B4002DEFBD /* Products */,
 				03B752C12CB0FFA1008364A2 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		030803272C8FE0B4002DEFBD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		030803282C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git */ = {
 			isa = PBXGroup;
 			children = (
-				03B752C42CB0FFAE008364A2 /* RemoteConfigManager */,
+				03A40D9E2CB4B85C001527F5 /* Model */,
+				03A40DA12CB4B891001527F5 /* Firebase */,
 				03230D262CA2794F00544858 /* Login */,
 				03230D252CA278F800544858 /* Service */,
 				030803452C8FE4B6002DEFBD /* Resource */,
-				030803432C8FE472002DEFBD /* SourceBarView */,
+				030803432C8FE472002DEFBD /* SearceBarView */,
 				030803422C8FE46A002DEFBD /* Profile */,
 				030803412C8FE461002DEFBD /* Message */,
 				030803402C8FE459002DEFBD /* Travel */,
@@ -154,7 +152,6 @@
 				0308033D2C8FE3EB002DEFBD /* Explore */,
 				030803292C8FE0B4002DEFBD /* AppDelegate.swift */,
 				0308032B2C8FE0B4002DEFBD /* SceneDelegate.swift */,
-				0308032D2C8FE0B4002DEFBD /* ViewController.swift */,
 				030803322C8FE0B6002DEFBD /* Assets.xcassets */,
 				030803342C8FE0B6002DEFBD /* LaunchScreen.storyboard */,
 				030803372C8FE0B6002DEFBD /* Info.plist */,
@@ -187,6 +184,7 @@
 		0308033F2C8FE44C002DEFBD /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
+				03A40DA52CB4BA14001527F5 /* ViewModel */,
 				0308035F2C8FE6CB002DEFBD /* Screen */,
 				0308035C2C8FE6BF002DEFBD /* FavoriteViewController.swift */,
 			);
@@ -220,12 +218,12 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		030803432C8FE472002DEFBD /* SourceBarView */ = {
+		030803432C8FE472002DEFBD /* SearceBarView */ = {
 			isa = PBXGroup;
 			children = (
 				0308034B2C8FE55C002DEFBD /* SearchBarView.swift */,
 			);
-			path = SourceBarView;
+			path = SearceBarView;
 			sourceTree = "<group>";
 		};
 		030803452C8FE4B6002DEFBD /* Resource */ = {
@@ -436,6 +434,39 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		03A40D9E2CB4B85C001527F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03A40D9F2CB4B870001527F5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03A40DA12CB4B891001527F5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				03A40DA22CB4B8C0001527F5 /* FirebaseFirestore */,
+				03B752C42CB0FFAE008364A2 /* RemoteConfigManager */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		03A40DA22CB4B8C0001527F5 /* FirebaseFirestore */ = {
+			isa = PBXGroup;
+			children = (
+				03A40DA32CB4B8E3001527F5 /* FirebaseFirestoreManager.swift */,
+			);
+			path = FirebaseFirestore;
+			sourceTree = "<group>";
+		};
+		03A40DA52CB4BA14001527F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03A40DA62CB4BA2C001527F5 /* FavoriteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		03B752C12CB0FFA1008364A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,6 +505,7 @@
 				03B752BD2CB0F173008364A2 /* FacebookCore */,
 				03B752BF2CB0F173008364A2 /* FacebookLogin */,
 				03B752C22CB0FFA1008364A2 /* FirebaseRemoteConfig */,
+				03A40D9C2CB4B7D1001527F5 /* FirebaseFirestore */,
 			);
 			productName = "Airbnb-Clone-Bootcamp-FabioLopes.git";
 			productReference = 030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */;
@@ -508,7 +540,7 @@
 				03B752B52CB0E738008364A2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				03B752BC2CB0F172008364A2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
-			productRefGroup = 030803272C8FE0B4002DEFBD /* Products */;
+			productRefGroup = 0308031D2C8FE0B4002DEFBD;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -555,11 +587,11 @@
 				030803582C8FE653002DEFBD /* TravelViewController.swift in Sources */,
 				030803652C8FE78B002DEFBD /* ExploreViewModel.swift in Sources */,
 				03230D282CA2797500544858 /* LoginViewController.swift in Sources */,
+				03A40DA02CB4B870001527F5 /* User.swift in Sources */,
 				03230D452CA27AB000544858 /* LocalFileReader.swift in Sources */,
 				0308034C2C8FE55C002DEFBD /* SearchBarView.swift in Sources */,
 				030803702C8FE7FE002DEFBD /* DestinationTableViewCell.swift in Sources */,
 				03230D392CA27A4600544858 /* Parameters.swift in Sources */,
-				0308032E2C8FE0B4002DEFBD /* ViewController.swift in Sources */,
 				03230D3F2CA27A7B00544858 /* EmptyResponse.swift in Sources */,
 				0308032A2C8FE0B4002DEFBD /* AppDelegate.swift in Sources */,
 				0308032C2C8FE0B4002DEFBD /* SceneDelegate.swift in Sources */,
@@ -572,7 +604,9 @@
 				03230D362CA27A2A00544858 /* HTTPMethod.swift in Sources */,
 				03230D332CA27A0C00544858 /* NetworkError.swift in Sources */,
 				030803742C8FE830002DEFBD /* TravelCategory.swift in Sources */,
+				03A40DA42CB4B8E3001527F5 /* FirebaseFirestoreManager.swift in Sources */,
 				03B752C62CB0FFE7008364A2 /* RemoteConfigManager.swift in Sources */,
+				03A40DA72CB4BA2C001527F5 /* FavoriteViewModel.swift in Sources */,
 				03230D2E2CA279C000544858 /* RegisterButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -823,6 +857,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		03A40D9C2CB4B7D1001527F5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
 		03B752B32CB0DCC2008364A2 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

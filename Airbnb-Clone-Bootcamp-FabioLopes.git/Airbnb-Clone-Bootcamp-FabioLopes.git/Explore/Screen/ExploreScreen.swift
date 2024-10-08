@@ -143,5 +143,6 @@ class ExploreScreen: UIView {
   func configTableViewProtocols(delegate: UITableViewDelegate, dataSource: UITableViewDataSource) {
     tableView.delegate = delegate
     tableView.dataSource = dataSource
+    tableView.reloadData()
   }
 }

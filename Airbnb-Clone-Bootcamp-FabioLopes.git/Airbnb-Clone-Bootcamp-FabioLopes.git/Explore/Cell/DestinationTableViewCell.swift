@@ -11,6 +11,8 @@ class DestinationTableViewCell: UITableViewCell {
 
   static let identifier: String = String(describing: DestinationTableViewCell.self)
   var images: [String] = []
+  var id: Int = 0
+  var isFavorite: Bool = false
 
   lazy var collectionView: UICollectionView = {
     let layout = UICollectionViewFlowLayout()
@@ -112,7 +114,9 @@ class DestinationTableViewCell: UITableViewCell {
   }()
 
   @objc func tappedHeartButton() {
-    print(#function)
+    isFavorite.toggle()
+    heartButton.setImage(isFavorite ? UIImage(systemName: "heart.fill") : UIImage(systemName: "heart"), for: .normal)
+    FirestoreManager.shared.toggleFavoriteProperty(id: id, completion: { _ in })
   }
 
   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
@@ -181,6 +185,7 @@ class DestinationTableViewCell: UITableViewCell {
   }
 
   func setupCell(data: PropertyDataModel) {
+    id = data.id
     images = data.images
     titleLabel.text = data.title
     subTitleLabel.text = data.subtitle
@@ -192,6 +197,12 @@ class DestinationTableViewCell: UITableViewCell {
     statusLabel.text = data.status
     statusLabel.isHidden = data.status.isEmpty
     collectionView.reloadData()
+
+    FirestoreManager.shared.isPropertyFavorite(id: id) { [weak self] isFavorite in
+      guard let self else { return }
+      self.isFavorite = isFavorite
+      heartButton.setImage(isFavorite ? UIImage(systemName: "heart.fill") : UIImage(systemName: "heart"), for: .normal)
+    }
   }
 
 
@@ -257,4 +268,3 @@ class PaddedLabel: UILabel {
     return size
   }
 }
-
