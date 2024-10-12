@@ -45,4 +45,3 @@ class FavoriteViewModel {
     userListener?.remove()
   }
 }
-

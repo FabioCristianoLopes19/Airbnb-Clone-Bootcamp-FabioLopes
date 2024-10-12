@@ -34,4 +34,3 @@ struct DefaultRequestBuilder: RequestBuilder {
     return completeRequest
   }
 }
-

@@ -33,4 +33,3 @@ class ExploreService {
     APIClient.shared.request(request: request, decodeType: [PropertyDataModel].self, completion: completion)
   }
 }
-

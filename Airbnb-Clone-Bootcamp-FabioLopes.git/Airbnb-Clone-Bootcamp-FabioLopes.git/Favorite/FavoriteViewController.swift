@@ -43,3 +43,4 @@ extension FavoriteViewController: FavoriteViewModelProtocol {
     screen?.tableView.reloadData()
   }
 }
+

@@ -46,6 +46,7 @@
 		03230D4D2CA27B0B00544858 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03230D4C2CA27B0B00544858 /* APIRequest.swift */; };
 		03230D512CA27C4500544858 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 03230D502CA27C4500544858 /* places.json */; };
 		03230D542CA27D3800544858 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03230D532CA27D3800544858 /* ExploreService.swift */; };
+		032A4AD82CBA0089007DBCFA /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 032A4AD72CBA0089007DBCFA /* FirebaseCrashlytics */; };
 		03A40D9D2CB4B7D1001527F5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 03A40D9C2CB4B7D1001527F5 /* FirebaseFirestore */; };
 		03A40DA02CB4B870001527F5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A40D9F2CB4B870001527F5 /* User.swift */; };
 		03A40DA42CB4B8E3001527F5 /* FirebaseFirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A40DA32CB4B8E3001527F5 /* FirebaseFirestoreManager.swift */; };
@@ -61,7 +62,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Airbnb-Clone-Bootcamp-FabioLopes.git.app"; path = "/Users/fabio_cl/Airbnb-Clone-Bootcamp-FabioLopes/Airbnb-Clone-Bootcamp-FabioLopes.git/build/Debug-iphoneos/Airbnb-Clone-Bootcamp-FabioLopes.git.app"; sourceTree = "<absolute>"; };
 		030803292C8FE0B4002DEFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0308032B2C8FE0B4002DEFBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		030803322C8FE0B6002DEFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +102,7 @@
 		03230D4C2CA27B0B00544858 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		03230D502CA27C4500544858 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		03230D532CA27D3800544858 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		032A4AD62CB9FB8F007DBCFA /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Airbnb-Clone-Bootcamp-FabioLopes.git.app"; path = "/Users/fabio_cl/Airbnb-Clone-Bootcamp-FabioLopes/Airbnb-Clone-Bootcamp-FabioLopes.git/build/Debug-iphoneos/Airbnb-Clone-Bootcamp-FabioLopes.git.app"; sourceTree = "<absolute>"; };
 		03A40D9F2CB4B870001527F5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		03A40DA32CB4B8E3001527F5 /* FirebaseFirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFirestoreManager.swift; sourceTree = "<group>"; };
 		03A40DA62CB4BA2C001527F5 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
@@ -119,6 +120,7 @@
 				03B752B42CB0DCC2008364A2 /* FirebaseAuth in Frameworks */,
 				03B752C32CB0FFA1008364A2 /* FirebaseRemoteConfig in Frameworks */,
 				03B752B72CB0E738008364A2 /* GoogleSignIn in Frameworks */,
+				032A4AD82CBA0089007DBCFA /* FirebaseCrashlytics in Frameworks */,
 				03B752BE2CB0F173008364A2 /* FacebookCore in Frameworks */,
 				03A40D9D2CB4B7D1001527F5 /* FirebaseFirestore in Frameworks */,
 			);
@@ -506,9 +508,10 @@
 				03B752BF2CB0F173008364A2 /* FacebookLogin */,
 				03B752C22CB0FFA1008364A2 /* FirebaseRemoteConfig */,
 				03A40D9C2CB4B7D1001527F5 /* FirebaseFirestore */,
+				032A4AD72CBA0089007DBCFA /* FirebaseCrashlytics */,
 			);
 			productName = "Airbnb-Clone-Bootcamp-FabioLopes.git";
-			productReference = 030803262C8FE0B4002DEFBD /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */;
+			productReference = 032A4AD62CB9FB8F007DBCFA /* Airbnb-Clone-Bootcamp-FabioLopes.git.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -857,6 +860,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		032A4AD72CBA0089007DBCFA /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
 		03A40D9C2CB4B7D1001527F5 /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 03B752B22CB0DCC2008364A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

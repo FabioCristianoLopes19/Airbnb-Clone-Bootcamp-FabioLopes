@@ -56,4 +56,3 @@ extension LoginViewController: LoginScreenProtocol {
     viewModel.signInWithFacebook(viewController: self)
   }
 }
-

@@ -89,4 +89,3 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     lineView.isHidden = !travelCategory.isSelected
   }
 }
-
